@@ -2,6 +2,12 @@
 
 This Go program, email-checker, checks the DNS records for a given domain extracted from an email address and displays information about its MX, SPF, and DMARC records.
 
+MX (Mail Exchange) records: MX records specify the mail servers responsible for receiving email for a particular domain.
+
+SPF (Sender Policy Framework): SPF is an email authentication protocol used to prevent email spoofing by specifying which mail servers are authorized to send emails on behalf of a domain.
+
+DMARC (Domain-based Message Authentication, Reporting, and Conformance): DMARC helps prevent email spoofing and phishing attacks by providing a framework for email senders to define how their emails should be handled if they fail authentication checks.
+
 ## Usage
 
 1. Clone the repository:
